@@ -1,0 +1,54 @@
+{
+  "name": "cleanier",
+  "version": "1.0.0",
+  "description": "Website selling eco-friendly cleaning products.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.ts",
+    "build": "rm -r build/ && tsc src/index.ts",
+    "eslint": "eslint .",
+    "migrate": "ts-node src/database/migrate.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@rendu-git.etna-alternance.net:module-9179/activity-50057/group-990988.git"
+  },
+  "author": "baille_c and bougra_g and hachid_o",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^18.11.5",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-airbnb-typescript": "^17.0.0",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^8.5.1",
+    "module": "^1.2.5",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.20",
+    "post": "^0.0.1",
+    "postman": "^0.2.0",
+    "request": "^2.88.2",
+    "require": "^2.4.20",
+    "response": "^0.18.0",
+    "sequelize": "^6.25.3",
+    "sequelize-cli-typescript": "^3.2.0-c",
+    "ts-node": "^10.9.1",
+    "tsc": "^2.0.4",
+    "typescript": "^4.8.4"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.14",
+    "@types/jsonwebtoken": "^8.5.9",
+    "@types/request": "^2.48.8",
+    "@types/sequelize": "^4.28.14",
+    "@typescript-eslint/eslint-plugin": "^5.40.1",
+    "@typescript-eslint/parser": "^5.40.1",
+    "eslint": "^8.25.0",
+    "eslint-plugin-react": "^7.31.10",
+    "sequelize-cli": "^6.5.1"
+  },
+  "keywords": []
+}

@@ -1,0 +1,4 @@
+
+> cleanier@1.0.0 migrate
+> ts-node src/database/migrate.ts
+
